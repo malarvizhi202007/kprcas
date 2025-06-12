@@ -18,3 +18,38 @@
             padding-left: 50px;
 
         }
+        .static{
+          position: static;
+        }
+        .position{
+          border: 2px solid violet;
+        }
+
+        .relative{
+          position: relative;
+          top: 30px;
+          left: 60px;
+        }
+
+        .page{
+          height: 100vh;
+        }
+        .inline{
+          display: inline;
+        }
+        .flex-container{
+          display: flex;
+          /* flex-direction: row-reverse; */
+
+        }
+        .flex-container div{
+          background-color: peachpuff;
+          border: 2px solid brown;
+          height: 100px;
+          width: 100;
+        }
+        .item2{
+          /* flex grow: 2; */
+          flex-shrink: 0;
+        }
+
